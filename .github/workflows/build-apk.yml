@@ -40,17 +40,17 @@ jobs:
       - name: Build APK (10000 Days Validity)
         run: |
           gradle assembleDebug
-          cp app/build/outputs/apk/debug/app-debug.apk com_studio_poltttthhb.apk
+          cp app/build/outputs/apk/debug/app-debug.apk com_studio_wstttthhb.apk
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: AppFactory-APK
-          path: com_studio_poltttthhb.apk
+          path: com_studio_wstttthhb.apk
 
       - name: Publish Direct Release APK
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v-1793479599904
-          name: "uugvfddddggghffh (1.0.0)"
-          files: com_studio_poltttthhb.apk
+          tag_name: v-1793481047102
+          name: "uoiytrghffh (1.0.0)"
+          files: com_studio_wstttthhb.apk
